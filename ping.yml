@@ -1,6 +1,6 @@
 ---
 - name: ping
-  hosts: all
+  hosts: localhost
   tasks:
   - action: ping
     register: hello
